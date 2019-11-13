@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/mycss.css" >
+    <link rel="stylesheet" href="css.css" >
+    <title>Hilton Sharks Bay Resort</title>
+  </head>
+  <body>  
+      
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                  <div class="item active">
+                    <img src="H.S.B.R/1.jpg" alt="..." style="width: 100%">
+                </div>              
+                
+                <div class="item">
+                    <img src="H.S.B.R/2.jpg" alt="..." style="width: 100%">
+                </div>
+
+                <div class="item">
+                    <img src="H.S.B.R/3.jpg" alt="..." style="width: 100%">
+                </div>
+                          
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+            
+        </div>
+      
+          <ul class="navigation">
+            <li><a href="home.html" title="Home">Home</a></li>
+            <li><a href="about%20us.html" title="About us">About Us</a></li>
+            <li><a href="#" title="the places">The Places</a>
+              <ul>
+                <li><a href="cairo.html" title="Cairo">Cairo</a></li>
+                <li><a href="Hurghada.html" title="Hurghada">Hurghada</a></li>
+                <li><a href="Alexandria.html" title="Alexandria">Alexandria</a></li>
+                <li><a href="Ain%20Sokhna.html" title="Ain Sokhna">Ain Sokhna</a></li>
+                <li><a href="Sharm%20El%20Sheikh.html" title="Sharm ElSheikh">Sharm El-Sheikh</a></li>
+              </ul>
+            </li>
+          </ul> 
+      
+            <div class="subject"><h2>Hilton Sharks Bay Resort</h2>Surrounded by palm trees, just 5 km from Sharm El Sheikh Airport, this luxurious resort features private beach, excellent family entertainment and a range of leisure activities and water sports.
+
+            All rooms are feature modern interiors with a private balcony. It includes a flat-screen TV and a fridge. The bathroom is fitted with a bath and a bathrobe.
+
+            Sharks Bay boasts 7 outdoor pools, with plenty of space to relax around the terrace. Guests can keep up with their fitness routines using the high-tech gym facilities, followed by a soothing massage with views of the Red Sea.
+
+            The Red Sea coast can be explored with the guidance of the onsite professional diving centre. Children will be kept entertained at the kid’s club, their shaded pool area and entertainment from the animation team.
+
+            The resort offers a variety of cuisines from 13 restaurant and bars. In the evenings, the Mahfouz and Il Rustico Restaurants serve delicious dishes, while the Sunset Bar features Red Sea views and exotic cocktails. 
+
+            This property is also rated for the best value in Sharm El Sheikh! Guests are getting more for their money when compared to other properties in this city. 
+            </div>
+            
+            <form action="/action_page.php" method="post"  class="form"  >
+            <fieldset id = fieldset>
+                <legend style="font-size: 40px; text-align: center">BOOKING & CONTACT</legend>
+                First name:<br>
+                <input type="text" name="firstname" required >
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname" required >
+                <br>  
+                Country:<br>       
+                <input type="text" name="country" required>
+                <br>
+                City:<br>       
+                <input type="text" name="city" required>
+                <br>
+                mobile:<br>       
+                <input type="text" name="mobile" required>
+                <br>
+                Email Address:<br>
+                <input type="email" name="email" required>  
+                <br>
+                Arrival date:<br>
+                <input type="date" name="arrival date">
+                <br>
+                Departure date:<br>
+                <input type="date" name="departure data">
+                <br>
+                Number of adults:<br>
+                <input type="number" name="Number of adults" min="1" max="20">
+                <br>
+                Number of children:<br>
+                <input type="number" name="Number of children" min="1" max="20">
+                <br>
+                Message:<br>
+                <textarea style="width:100%; height: 100px; font-size:20px; " ></textarea> <br>
+                <input type="submit" value="Submit" id="submet" required>
+            </fieldset>
+        </form> 
+      
+        <footer class="footer">
+            <div id="content">
+                <h1 style="margin: 15px; padding: 10px" id ="h">Where do you want to go ?</h1>
+                 <div class="columns">
+                     <ul>
+                        <li><a href="cairo.html" title="cairo">Cairo</a></li>
+                        <li><a href="Hurghada.html" title="luxor">Hurghada</a></li>
+                        <li><a href="Alexandria.html" title="the nile">Alexandria</a></li>
+                        <li><a href="Ain%20Sokhna.html" title="Ain Sokhna">Ain Sokhna</a></li>
+                        <li><a href="Sharm%20El%20Sheikh.html" title="Sharm ElSheikh">Sharm El-Sheikh</a></li>
+
+                     </ul>         
+                 </div>
+            </div>
+        </footer>
+      
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

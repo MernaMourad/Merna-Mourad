@@ -1,0 +1,325 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   /** background: rgb(211, 209, 199); */
+    background-image: url(images/background.jpg);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+/*====================================== Navigation Menu ============================================*/
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: black;
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+  height: 60px;
+  font-size: 30px;
+
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:hover {
+  background: #222;
+}
+
+
+.navigation li a {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 59px;
+  color: #00b6e3;
+}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin-left: 0px;
+  padding: 0;
+ /* overflow: hidden;*/
+}
+
+.navigation ul li {
+  float: none;
+}
+
+.navigation li:hover > ul {
+  display: block;
+  background: #222;
+  border-top: 0;
+  -webkit-box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navigation li li a:hover {
+  background: #000;
+
+}
+
+
+/*========================================== paragraph ==============================================*/
+	
+#p{
+  font-family: 'Patua One', cursive;
+  font-size:60px;
+  font-weight:600;
+  color: #00b6e3;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-shadow:5px 5px 5px rgba(0,0,0,0.3);
+  text-align: center;
+  
+}
+
+/*========================================== Divs in Home ===========================================*/
+
+.div{
+   
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+#img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 30px;
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 40px;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow:5px 5px 5px rgba(0,0,0,0.3);
+}
+#pp{
+    margin-left: 30px;
+    font-size: 40px;
+    display: block;
+}
+
+#aa{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+#aa:hover{
+    color: rgba(44, 167, 244, 0.96);
+}
+
+/*======================================== Div In Hotal =============================================*/
+
+h2{
+  font-family: 'Patua One', cursive;
+  font-size:60px;
+  font-weight:600;
+  color: #00b6e3;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-shadow:5px 5px 5px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.subject{
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+    padding: 20px;
+}
+
+
+
+/*======================================= BOOKING & CONTACT =========================================*/
+
+.form {
+    width: 800px;
+    height: auto;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+    
+}
+
+input[type=submit]{
+    
+    background-color: #00b6e3;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:30px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+}
+
+#submet:hover{
+    background-color: #ff0000;
+}
+
+#fieldset{
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*=========================================== About Us ==============================================*/
+
+table {
+ 
+  background:#fff;
+  border-radius:5px;
+  margin:50px auto;
+  box-shadow:5px 5px 5px 5px rgba(0,0,0,0.3);
+  width: auto;
+ 
+}
+
+thead th {
+  font-family: 'Patua One', cursive;
+  font-size:60px;
+  font-weight:400;
+  color:#fff;
+  text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+  text-align:left;
+  padding:20px;
+  border-top:1px solid #858d99;
+  background-color:#00b6e3; 
+  
+}
+
+tbody tr td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color:#5f6062;
+  font-size:30px;
+  padding:20px 20px 20px 20px;
+  border-bottom:1px solid #e0e0e0;
+  
+}
+
+tbody tr:nth-child(2n) {
+  background-color:#00b6e3;
+}
+
+
+
+tbody:hover > tr:hover td {
+ 
+  color:#262525;
+
+}
+
+.t a{
+    text-decoration: none;
+    color: #5f6062;
+}
+
+.t a:hover{
+    
+    text-decoration: none;
+    color:#262525;
+}
+
+/*============================================ Footer ===============================================*/
+
+.footer{
+  height: auto;
+  background: #00b6e3;
+  border-top: 0px;
+  margin-bottom: 0px;
+  border: 2px solid white;
+  border-radius: 2px 2px 2px 2px;
+}
+
+#content       
+{
+    font-size: 25px; 
+    width: 71.875%; 
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin: 0px auto; 
+    
+}
+
+.columns
+{   
+    -moz-column-width: 90px; 
+    -webkit-column-width: 90px; 
+    column-width: 290px;
+    margin: 10px;
+
+}
+
+.columns ul
+{
+    margin: 0px;
+    list-style-type: none;
+}
+
+
+
+#content li a {
+  padding: 0;
+  text-decoration:none;
+  line-height: 50px;
+  color: #fff;
+  margin: 0px; 
+}
+
+#content li a:hover {
+  color: #85e5fd;
+}
+
+#h{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow:5px 5px 5px rgba(0,0,0,0.3);
+}
+#h2{
+    color: #00b6e3;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+
+}
